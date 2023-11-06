@@ -1,5 +1,8 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flex-container {
@@ -7,8 +10,6 @@
     flex-direction: column;
     margin: 0;
     box-sizing: border-box;
-    height: 100vh;
-    width: 100vw;
 }
 
 .navBar {
@@ -18,12 +19,14 @@
     align-items: center;
     justify-content:space-between;
     width: 100vw;
-    height: 10vh;
     background-color: rgb(80, 144, 240);
 }
 
 .date, .Sign-Up, .login{
-    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
     height: 50px;
     width: 100px;
     margin: 10px;
@@ -39,7 +42,47 @@
 .container-one {
     background-color: rgb(182, 211, 255);
     width: 100vw;
-    height: 45vh;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-contant {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item1, .item2, .item3,
+.item4, .item5 {
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.item5 { /*putting the item5 in the front of the others */
+    order: -1;
+}
+
+.footer {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(182, 211, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item1, .footer-item2 {
+    height: 100px;
+    width: 20vw;
+    background-color: rgb(80, 144, 240);
 }
 
 
