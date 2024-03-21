@@ -1,5 +1,7 @@
 FlexBox Exercise
 
+You can see the web page here: https://edustudenttex.github.io/primeiro-commit-exe-display-flex-css/exe001.html
+
   This project is a simple HTML and CSS exercise aimed at practicing the use of Flexbox layout. 
 It demonstrates a basic webpage layout utilizing Flexbox properties for creating a responsive design.
 
