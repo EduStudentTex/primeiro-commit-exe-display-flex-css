@@ -1,5 +1,4 @@
 FlexBox Exercise
-  You can see the web page here: http://flexboxexercise-tex.com/
 
   This project is a simple HTML and CSS exercise aimed at practicing the use of Flexbox layout. 
 It demonstrates a basic webpage layout utilizing Flexbox properties for creating a responsive design.
